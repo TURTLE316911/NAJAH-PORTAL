@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>najah-portal - Smart AI Class Platform</title>
+    <meta name="description" content="The Smart AI Platform for Class Events, Recognition, Attendance, Leaderboard Analytics, Timetable Schedules, and Student Life." />
+    <meta property="og:title" content="najah-portal - Smart AI Class Platform" />
+    <meta property="og:description" content="The Smart AI Platform for Class Events, Recognition, Attendance, Leaderboard Analytics, Timetable Schedules, and Student Life." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      try {
+        if (localStorage.getItem('najah_portal_v2_dark_mode') === 'true') {
+          document.documentElement.classList.add('dark', 'dark-mode-blue');
+          document.documentElement.classList.remove('light-mode-blue');
+          document.documentElement.setAttribute('data-theme', 'darkblue');
+        } else {
+          document.documentElement.classList.remove('dark', 'dark-mode-blue');
+          document.documentElement.classList.add('light-mode-blue');
+          document.documentElement.setAttribute('data-theme', 'lightblue');
+        }
+      } catch (_) {}
+    </script>
+    <link rel="icon" type="image/png" href="/assets/aistudio/ChatGPT_Image_Oct_29__2026__11_16_43_AM_588831e3.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-teal-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "najah-portal - Smart AI Class Platform",
+  "description": "The Smart AI Platform for Class Events, Recognition, Attendance, Leaderboard Analytics, Timetable Schedules, and Student Life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
